@@ -47,6 +47,21 @@
     - Ingresar a la carpeta kraken
     - Iniciar el proyecto usando el comando `kraken-node run`.
 
+## Ejecucion de Monkey
+    
+    - Edite el archivo monkey\cypress\e2e\monkey\monkey.cy.js usando sus credenciales de acceso a Ghost y la URL de ghost
+    - Cambie los valores de las constantes username y password con las credenciales de ghost validas.
+    - Abrir la terminal
+    - Ingresar a la carpeta monkey
+    - Correr el comando npm install si aun no lo ha hecho.
+    - Iniciar proyecto usando el comando `cypress open`.
+    - En caso de no tener el proyecto agregado, usar la ruta: ./cypress 
+    - Seleccionar pruebas E2E.
+    - Seleccionar navegador y ejecutar el navegador.
+    - En el menú lateral seleccionar la opción specs, dirijase a la carpeta cypress\e2e\monkey.
+    - Ejecute la prueba dentro de la carpeta.
+
+
 ## Estrategias usadas
 
 ### A priori
