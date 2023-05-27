@@ -1,6 +1,6 @@
-const username = "f.alarconf@uniandes.edu.co";
+const username = "hmaury1@gmail.com";
 const invalidUsername = "xxx@xxx.com";
-const password = "fredy12345";
+const password = "Hola123456*#";
 const invalidPassword = "123";
 const retryText = "Retry";
 
