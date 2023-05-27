@@ -1,0 +1,12 @@
+{
+    "url": "http://127.0.0.1:2368/ghost/#/signin",
+    "headless": true,
+    "depthLevels": 5,
+    "inputValues": true,
+    "values": {"userInput": "Humberto",
+        "passwordInput": "Hola123456*#",
+        "passwordTwoInput": "Hola123456*#",
+        "nameInput": "Humberto",
+        "emailInput": "Hmaury1@gmail.com"},
+    "browsers": ["chromium", "webkit"]
+}
