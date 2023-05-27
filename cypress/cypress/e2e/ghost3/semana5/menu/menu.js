@@ -46,8 +46,6 @@ export class Menu {
     return cy.get('li > a[href="#/pages/"]');
   }
 
-  constructor() {}
-
   when_user_navigate_to_posts = () => {
     this.postLink.click();
     cy.screenshot(`${this.scenario}/navigate_to_post`);

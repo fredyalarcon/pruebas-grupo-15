@@ -6,7 +6,7 @@ export class General {
   newDescription = "Nuevo Descripción";
 
   get saveButton() {
-    return cy.get(".gh-canvas-header-content > .view-actions > button");
+    return cy.get(".gh-canvas-header > .view-actions > button");
   }
 
   scenario = ''
@@ -16,7 +16,7 @@ export class General {
   }
 
   when_user_click_on_expand_title_and_description = () => {
-    cy.get(".gh-expandable-header > button").then(
+    cy.get(".gh-setting-action > button").then(
       (buttons) => {
         buttons[0].click();
       }
@@ -75,7 +75,7 @@ export class General {
 
   then_title_was_updated = () => {
     cy.wait(1000);
-    cy.get(".gh-nav-menu-details-sitetitle").then(($title) => {
+    cy.get(".gh-nav-menu-details-blog").then(($title) => {
       expect($title[0].innerText).to.equal(this.newTitle);
     });
     cy.wait(1000);
