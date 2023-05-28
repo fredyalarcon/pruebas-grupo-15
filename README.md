@@ -38,15 +38,6 @@
     - En el menú lateral seleccionar la opción specs, dirijase a la carpeta cypress\e2e\ghost3\semana7, allí encontrá 3 carpeta con cada una de las estrategias trabajadas: a priori, aleatorios y dinamicos (pseudo aleatorios).
     - Ejecute uno a uno los escenarios dentro de las 3 carpetas.
 
-## Ejecución de Kraken:
-    - Editar el archivo kraken/properties.json
-    - Configure los valores de USERNAME1 y PASSWORD1 con las credenciales de ghost validas.
-    - De ser necesario edite el puerto que utiliza Ghost, por defecto esta en 2368. Puede editarlo en el valor URL en el archivo kraken/properties.json 
-    - En la carpeta kraken/feature/escenarios_semana7 encontrara los archivos txt para cada escenario de pruebas (encontrará 5 escenarios), copie y pegue el contenido del txt que desee ejecutar dentro del archivo my_first.feature dejando las lineas de codigo ahi presente.
-    - Abrir la terminal
-    - Ingresar a la carpeta kraken
-    - Iniciar el proyecto usando el comando `kraken-node run`.
-
 ## Ejecucion de Monkey
     
     - Edite el archivo monkey\cypress\e2e\monkey\monkey.cy.js usando sus credenciales de acceso a Ghost y la URL de ghost
