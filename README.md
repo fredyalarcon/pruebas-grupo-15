@@ -81,5 +81,5 @@ Para los escenarios realizados en Kraken se usó el generador de cadenas falsas 
 ## Descripcion de los escenarios
 
 En la siguiente pagina, dentro de la wiki, encontrará la lsita de los escenarios con su correspondiente estrategia de generacion de datos de prueba:
-https://github.com/hmauryuniandes/proyecto-e2e/wiki/Escenarios-con-estrategias-de-generaci%C3%B3n-de-datos
+https://github.com/fredyalarcon/pruebas-grupo-15/wiki/Escenarios-con-estrategias-de-generaci%C3%B3n-de-datos
 
